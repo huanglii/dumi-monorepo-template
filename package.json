@@ -19,6 +19,7 @@
     "dev": "dumi dev",
     "docs:build": "dumi build",
     "docs:preview": "dumi preview",
+    "doctor": "pnpm -r build",
     "lint": "npm run lint:es && npm run lint:css",
     "lint:css": "stylelint \"packages/**/{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"packages/**/{src,test}/**/*.{js,jsx,ts,tsx}\"",
