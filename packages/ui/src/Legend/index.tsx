@@ -1,11 +1,12 @@
+import { HelloWorld } from '@nm/component';
 import { Button } from 'antd';
 import React, { FC } from 'react';
 
-const HelloWorld: FC = () => (
+const Legend: FC = () => (
   <div>
-    <p>Hello Dumi</p>
+    <HelloWorld />
     <Button>Antd Button</Button>
   </div>
 );
 
-export default HelloWorld;
+export default Legend;

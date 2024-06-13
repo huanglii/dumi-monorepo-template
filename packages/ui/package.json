@@ -12,10 +12,11 @@
     "prepublishOnly": "father doctor && pnpm run build"
   },
   "dependencies": {
-    "@babel/runtime": "^7.24.7"
+    "@babel/runtime": "^7.24.7",
+    "@nm/component": "workspace:^"
   },
   "peerDependencies": {
-    "antd": "^5.18.1",
+    "antd": ">=5.0.0",
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   }

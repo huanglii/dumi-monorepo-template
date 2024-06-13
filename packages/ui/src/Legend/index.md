@@ -2,7 +2,7 @@
 
 ```jsx
 import React from 'react';
-import { Legend } from 'met-ui';
+import { Legend } from '@nm/ui';
 
 export default () => (
   <h1>

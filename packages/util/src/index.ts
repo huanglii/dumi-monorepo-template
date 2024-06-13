@@ -1,1 +1,1 @@
-export { add } from './add';
+export { default as sum } from './sum';

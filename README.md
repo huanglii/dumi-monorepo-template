@@ -20,13 +20,10 @@ TODO
 $ pnpm install
 
 # develop library by docs demo
-$ pnpm start
+$ pnpm run dev
 
 # build library source code
 $ pnpm run build
-
-# build library source code in watch mode
-$ pnpm run build:watch
 
 # build docs
 $ pnpm run docs:build
@@ -36,6 +33,20 @@ $ pnpm run docs:preview
 
 # check your project for potential problems
 $ pnpm run doctor
+```
+
+## 测试
+
+在工作区内运行测试：
+
+```bash
+pnpm run test
+```
+
+如果只需在单个项目内运行测试，使用 --project CLI 选项：
+
+```bash
+pnpm run test --project @nm/ui
 ```
 
 ## LICENSE

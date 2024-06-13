@@ -19,4 +19,4 @@ features:
     description: Put ! description here
 ---
 
-dumi-monorepo-test 666
+dumi-monorepo-template

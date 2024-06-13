@@ -2,9 +2,9 @@
 nav:
   title: UI
   path: /ui
-  order: 2
+  order: 3
 ---
 
-# ui
+# UI
 
 @nm/ui

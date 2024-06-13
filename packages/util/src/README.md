@@ -5,6 +5,6 @@ nav:
   order: 1
 ---
 
-# util
+# 工具
 
 @nm/util

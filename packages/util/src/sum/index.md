@@ -2,7 +2,7 @@
 
 ```jsx
 import React, { useState } from 'react';
-import { add } from '@nm/util';
+import { sum } from '@nm/util';
 import { Button } from 'antd';
 
 export default () => {
@@ -10,7 +10,7 @@ export default () => {
   return (
     <div>
       <p>{val}</p>
-      <Button onClick={() => setVal(add(val, 1))}>加 1</Button>
+      <Button onClick={() => setVal(sum(val, 1))}>加 1</Button>
     </div>
   );
 };

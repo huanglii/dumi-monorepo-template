@@ -18,14 +18,14 @@ export default defineConfig({
     },
   },
   alias: {
-    'met-ui': join(__dirname, 'packages/met-ui/src'),
     '@nm/util': join(__dirname, 'packages/util/src'),
+    '@nm/component': join(__dirname, 'packages/component/src'),
     '@nm/ui': join(__dirname, 'packages/ui/src'),
   },
   resolve: {
     atomDirs: [
-      { type: 'met-ui', dir: `/packages/met-ui/src` },
       { type: 'util', dir: '/packages/util/src' },
+      { type: 'component', dir: `/packages/component/src` },
       { type: 'ui', dir: `/packages/ui/src` },
     ],
   },
