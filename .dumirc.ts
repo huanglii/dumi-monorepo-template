@@ -4,6 +4,7 @@ import { join } from 'path';
 export default defineConfig({
   title: 'NM',
   outputPath: 'docs-dist',
+  base: '/dumi-monorepo-template/',
   themeConfig: {
     name: 'NM',
     showLineNumber: true,

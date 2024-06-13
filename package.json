@@ -1,8 +1,9 @@
 {
-  "name": "dumi-monorepo-test",
+  "name": "dumi-monorepo-template",
   "version": "0.0.1",
   "private": true,
   "description": "A react library developed with dumi",
+  "homepage": "https://www.naivemap.com/dumi-monorepo-template",
   "repository": {
     "type": "git",
     "url": "https://github.com/huanglii/dumi-monorepo-template"
