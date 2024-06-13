@@ -1,12 +1,12 @@
 ---
 hero:
-  title: library
+  title: N & M
   description: A react library developed with dumi
   actions:
     - text: Hello
-      link: /
+      link: /guide
     - text: World
-      link: /
+      link: /uis
 features:
   - title: Hello
     emoji: 💎

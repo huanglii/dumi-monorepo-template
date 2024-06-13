@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "description": "A react library developed with dumi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huanglii/dumi-monorepo-template"
+  },
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,5 +1,5 @@
 {
-  "name": "@nm/utils",
+  "name": "@nm/util",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -13,5 +13,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.24.7"
+  },
+  "devDependencies": {
+    "antd": "^5.18.1"
   }
 }
