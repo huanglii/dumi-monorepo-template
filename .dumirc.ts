@@ -1,10 +1,15 @@
 import { defineConfig } from 'dumi';
 import { join } from 'path';
 
+const base = '/dumi-monorepo-template/';
+
 export default defineConfig({
   title: 'NM',
   outputPath: 'docs-dist',
-  base: '/dumi-monorepo-template/',
+  base: `${base}`,
+  publicPath: `${base}`,
+  logo: `${base}logo.png`,
+  favicons: [`${base}logo.png`],
   themeConfig: {
     name: 'NM',
     showLineNumber: true,
