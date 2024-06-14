@@ -1,9 +1,6 @@
-# dumi-monorepo-test
+# dumi-monorepo-template
 
-[![NPM version](https://img.shields.io/npm/v/dumi-monorepo-test.svg?style=flat)](https://npmjs.org/package/dumi-monorepo-test)
-[![NPM downloads](http://img.shields.io/npm/dm/dumi-monorepo-test.svg?style=flat)](https://npmjs.org/package/dumi-monorepo-test)
-
-A react library developed with dumi
+A monorepo library developed with dumi
 
 ## Usage
 
@@ -13,7 +10,7 @@ TODO
 
 TODO
 
-## Development
+## 开发
 
 ```bash
 # install dependencies
@@ -30,9 +27,6 @@ $ pnpm run docs:build
 
 # Locally preview the production build.
 $ pnpm run docs:preview
-
-# check your project for potential problems
-$ pnpm run doctor
 ```
 
 ## 测试
