@@ -1,5 +1,6 @@
-import React, { FC } from 'react';
+import React, { FC } from 'react'
+import './index.less'
 
-const HelloWorld: FC = () => <div>HelloWorld</div>;
+const HelloWorld: FC = () => <div className="hello-world">HelloWorld</div>
 
-export default HelloWorld;
+export default HelloWorld
